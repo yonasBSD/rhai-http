@@ -8,7 +8,7 @@ license-file = "./LICENSE"
 repository = "https://github.com/ltabis/rhai-http"
 
 [dependencies]
-rhai = { git = "https://github.com/yonasBSD/rhai", branch = "feat/stdlib", default-features = false, features = ["serde"] }
+rhai = { git = "https://github.com/yonasBSD/script.rs", branch = "feat/stdlib", default-features = false, features = ["serde"] }
 reqwest = { version = "0.13.1", default-features = false, features = [
     "blocking",
     "json",
